@@ -33,7 +33,7 @@ Creates `json-hive-schema-1.0.jar` and `json-hive-schema-1.0-jar-with-dependenci
 
     java -jar target/json-hive-schema-1.0-jar-with-dependencies.jar file.json
 
-    java -jar target/json-hive-schema-1.0-jar-with-dependencies.jar file.json my_table_name
+    java -jar target/json-hive-schema-1.0-jar-with-dependencies.jar file.json my_table_name s3_path
 
 
 Both print the Hive schema to stdout.
