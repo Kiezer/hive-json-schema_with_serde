@@ -26,7 +26,7 @@ Creates `json-hive-schema-1.0.jar` and `json-hive-schema-1.0-jar-with-dependenci
     java -cp target/json-hive-schema-1.0.jar net.thornydev.JsonHiveSchema file.json
 
     # optionally specify the name of the table
-    java -cp target/json-hive-schema-1.0.jar net.thornydev.JsonHiveSchema file.json my_table_name
+    java -cp target/json-hive-schema-1.0.jar net.thornydev.JsonHiveSchema file.json my_table_name s3_path
 
 
 #### with the executable jar
@@ -36,7 +36,7 @@ Creates `json-hive-schema-1.0.jar` and `json-hive-schema-1.0-jar-with-dependenci
     java -jar target/json-hive-schema-1.0-jar-with-dependencies.jar file.json my_table_name s3_path
 
 
-Both print the Hive schema to stdout.
+Both would copy the schema into your clipboard. Paste it into your desired text editor for view/format/modify.
 
 
 #### Example:
