@@ -1,0 +1,11 @@
+org/json/JSONString.class
+org/json/JSONException.class
+org/json/JSONWriter.class
+org/json/JSONObject$1.class
+net/thornydev/JsonHiveSchema$OrderedIterator.class
+org/json/JSONStringer.class
+org/json/JSONObject.class
+org/json/JSONObject$Null.class
+org/json/JSONTokener.class
+org/json/JSONArray.class
+net/thornydev/JsonHiveSchema.class
